@@ -1,0 +1,54 @@
+@media(max-width:450px){
+
+
+body{
+ height: fit-content;
+}
+main{
+  
+    flex-direction: column;
+}
+
+.left-side{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+
+
+
+.container >div>h1{
+    width: 90%;
+    text-align: center;
+}
+
+
+
+.right-side{
+    width: 100%;
+    min-height: 100vh;
+
+   
+}
+.right-side>video{
+    width: 100%;
+    height: 100vh;
+}
+.right-side >div{
+    padding: 20px;
+    height: 100vh;
+}
+.right-side >div>form{
+    width: 90%;
+}
+footer{
+position: fixed;
+bottom: 0;
+}
+
+
+
+
+
+}
